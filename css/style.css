@@ -1,11 +1,12 @@
-* {
-    border: 0;
-    padding: 0;
+html {
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
-html {
-    font-family: sans-serif;
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
 header {
@@ -38,6 +39,8 @@ li {
 .container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 img {
